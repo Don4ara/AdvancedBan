@@ -12,7 +12,6 @@
     <modules>
         <module>core</module>
         <module>bukkit</module>
-        <module>bungee</module>
         <module>bundle</module>
     </modules>
 
@@ -42,7 +41,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.14.0</version>
                 <configuration>
-                    <release>26</release>
+                    <release>25</release>
                 </configuration>
             </plugin>
             <plugin>
@@ -50,7 +49,7 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <source>26</source>
+                    <source>25</source>
                     <links>
                         <link>https://hub.spigotmc.org/javadocs/spigot/</link>
                         <link>https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/</link>
